@@ -1,0 +1,5 @@
+{"text":"Ek kilo chawal aur aadha kilo chini stock mein daal do","expected":{"intent":"INVENTORY_ADD","items":[{"product_name":"chawal","quantity":1,"unit":"kg"},{"product_name":"chini","quantity":0.5,"unit":"kg"}]}}
+{"text":"2 litre tel nikaal do stock se","expected":{"intent":"INVENTORY_REMOVE","items":[{"product_name":"tel","quantity":2,"unit":"litre"}]}}
+{"text":"Ramesh ko 3 packet biscuit bhejna","expected":{"intent":"NEW_ORDER","customer_name":"Ramesh","items":[{"product_name":"biscuit","quantity":3,"unit":"packet"}]}}
+{"text":"Maine 500 rupaye de diye","expected":{"intent":"PAYMENT","amount":500}}
+{"text":"Chini kitni bachi hai?","expected":{"intent":"INVENTORY_CHECK","items":[{"product_name":"chini"}]}}
